@@ -1,0 +1,149 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
+    width: 100%;
+}
+
+#w  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.navbar{
+    padding: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn{
+    background-color: rgb(255, 202, 44);
+    text-transform: capitalize;
+}
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.bo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 10px 20px 30px rgb(0, 0, 0, 0.2);
+
+}
+
+.imgbx {
+    width: 200px;
+    height: 150px;
+}
+
+.imgbx img {
+    width: 100%;
+    height: 100%;
+}
+
+.bo .text {
+    padding: 10px;
+}
+
+.bo .text h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.bo .text p {
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+
+.bo .butn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.bo .butn p {
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.bo .butn button {
+    font-size: 10px;
+}
+
+.bo h4 {
+    font-size: 14px;
+}
+
+
+
+@media (max-width:1250px) {
+    .bo {
+      
+        width: 30%;
+        height: 150px;
+    
+    }
+}
+@media (max-width:1150px) {
+    .bo {
+      
+        width: 45%;
+        height: 150px;
+    
+    }
+}
+@media (max-width:750px) {
+    .bo {
+      
+        width: 85%;
+        height: 150px;
+    
+    }
+}
+@media (max-width:450px) {
+    .navbar{
+        padding: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navbar .btn{
+        margin: 10px;
+        padding: 20px 70px;
+        /* width: 100px; */
+        text-align: center;
+    }
+    .bo {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+    .imgbx {
+        width: 100%;
+        height: 200px;
+    }
+}
