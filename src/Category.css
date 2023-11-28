@@ -1,0 +1,200 @@
+.category-banner {
+    position: relative;
+    width: 100%;
+    height:auto;
+background-color: black;
+}
+
+.category-banner>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.heading-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    text-align: center;
+}
+
+.heading-text h1 {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.heading-text h2 {
+    font-size: 2.8rem;
+    width: 40%;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.categoryBoxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 80px;
+    
+}
+.categoryBx {
+    width: 5%;
+    padding: 0px 30px;
+    border: none;
+    border-top: 2px dashed white;
+}
+
+.categoryBx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    padding: 0px 30px;
+    border-top: 2px dashed white;
+}
+.categoryBx:last-child{
+    
+    border-bottom: 2px dashed white;
+}
+
+.categoryBx img {
+    width: 200px;
+    margin-right: 15px;
+}
+
+
+.categoryBx .cateText h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.categoryBx .cateText p {
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 90%;
+}
+
+.categoryBx .price {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+@media (max-width:1200px) {
+    .heading-text h1 {
+        font-size: 2.2rem;
+
+    }
+    .heading-text h2 {
+        font-size: 2.4rem;
+    }
+   
+}
+@media (max-width:1060px) {
+    .categoryBx {
+       
+        width: 88%;
+        padding: 10px 10px;
+        
+    }
+    .categoryBx .cateText p {
+        font-size: 18px;
+        color: white;
+        width: 96%;
+    }
+    .heading-text h2 {
+        font-size: 2.2rem;
+        width: 60%;
+
+    }
+   
+}
+
+
+@media (max-width:850px){
+    .heading-text h1 {
+        font-size: 1.8rem;
+
+    }
+    .heading-text h2 {
+        font-size: 2rem;
+        width: 80%;
+        margin-bottom: 0px;
+
+    }
+    .heading-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding:60px 60px 30px 60px;
+        text-align: center;
+    }
+    .categoryBoxs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 80px;
+    
+    }
+    .categoryBx {
+       margin: 10px;
+        width: 42%;
+        padding: 10px 10px;
+        flex-direction: column;
+        text-align: center;
+        border: 2px dashed white;
+
+    }
+}
+
+
+
+@media (max-width:600px){
+    .heading-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .categoryBx {
+        width: 85%;
+        padding: 0px 30px;
+        border: none;
+        border-top: 2px dashed white;
+    }
+    .heading-text {
+      
+        padding:30px;
+    }
+    .heading-text h2 {
+        width: 90%;
+        color: white;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        font-weight: 800;
+        font-family: 'Nunito Sans', sans-serif;
+    
+    }
+}
